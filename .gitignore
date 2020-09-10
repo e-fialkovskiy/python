@@ -27,6 +27,6 @@ Thumbs.db
 
 # Vim undo files. Python#
 # #######################
-*.un~
-*.pyc
-*.swp
+.un~
+.pyc
+.swp
