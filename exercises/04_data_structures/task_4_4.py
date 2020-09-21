@@ -15,5 +15,10 @@ vlanы вручную.
 
 vlans = [10, 20, 30, 1, 2, 100, 10, 30, 3, 4, 10]
 
-vlans = sorted (vlans)
-print (vlans)
+
+vlans2 = set(vlans)
+vlans2 = sorted (vlans2)
+print (vlans2)
+
+
+
