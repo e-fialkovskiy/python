@@ -13,3 +13,11 @@
 
 command1 = "switchport trunk allowed vlan 1,2,3,5,8"
 command2 = "switchport trunk allowed vlan 1,3,8,9"
+
+
+com1 = sorted (list(command1))
+com2 = sorted (list(command2))
+com1 = set(com1[8:13])
+com2 = set(com2[7:11])
+
+print (sorted (com1 & com2))
